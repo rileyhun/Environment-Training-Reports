@@ -25,5 +25,3 @@ colnames(data)<-c("Manager Name", "Employee Name", "Employee ID", "Biohazardous 
 #Export Back to Excel
 write.csv(data,"TrainingData.csv", row.names = FALSE)
 
-
-# sum(na.omit(data$New.Hire == 1))
